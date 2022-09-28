@@ -1,0 +1,160 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    position: relative;
+    padding: 50px;
+    background-color:  hsl(0, 0%, 98%);
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.first-title {
+    display: flex;
+    justify-content: center;
+    font-weight: 200;
+    font-family: 'Outfit', sans-serif;
+    color:  hsl(234, 12%, 34%);
+
+}
+.second-title {
+    color:  hsl(234, 12%, 34%);
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+    font-family: 'Outfit', sans-serif;
+}
+.description-1 {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    color:  hsl(234, 12%, 34%);
+    font-weight: 200;
+    font-family:'Outfit', sans-serif; 
+}
+.box {
+    background-color: white;
+    box-shadow: 0px 6px 6px 0px black;
+    height: 250px;
+    width: 400px;
+    border-radius: 10px;
+}
+.box-1 {
+    border-top: solid 5px red;
+    position: absolute;
+    top: 280px;
+}
+.box-2 {
+    border-top: solid 5px cyan;
+    position: absolute;
+    top: 350px;
+    right: 100px;
+}
+.box-3 {
+    border-top: solid 5px orange;
+    position: absolute;
+    top: 550px;
+}
+.box-4 {
+    border-top: solid 5px blue;
+    position: absolute;
+    left: 100px;
+    top: 350px;
+}
+.title-box-1 {
+    text-align: left;
+    padding: 30px;
+    font-weight: 400;
+    font-family:'Outfit', sans-serif ;
+    color: hsl(234, 12%, 34%);
+    font-size: 24px;
+}
+.description-box-1 {
+    color: hsl(234, 12%, 34%);
+    text-align: left;
+    padding: 30px;
+    line-height: 1.6;
+    font-weight: 200;
+    font-family:'Outfit', sans-serif  ;
+    position: absolute;
+    bottom: 50px;
+}
+.svg-1 {
+    position: absolute;
+    left: 300px;
+    top: 150px;
+}
+.title-box-2 {
+    text-align: left;
+    padding: 30px;
+    font-weight: 400;
+    font-family:'Outfit', sans-serif ;
+    color: hsl(234, 12%, 34%);
+    font-size: 24px;
+}
+.description-box-2 {
+    color: hsl(234, 12%, 34%);
+    text-align: left;
+    padding: 30px;
+    line-height: 1.6;
+    font-weight: 200;
+    font-family:'Outfit', sans-serif  ;
+    position: absolute;
+    top: 40px;
+}
+.svg-2 {
+    position: absolute;
+    left: 300px;
+    top: 150px;
+}
+.title-box-3 {
+    text-align: left;
+    padding: 30px;
+    font-weight: 400;
+    font-family:'Outfit', sans-serif ;
+    color: hsl(234, 12%, 34%);
+    font-size: 24px;
+}
+.description-box-3 {
+    color: hsl(234, 12%, 34%);
+    text-align: left;
+    padding: 30px;
+    line-height: 1.6;
+    font-weight: 200;
+    font-family:'Outfit', sans-serif  ;
+    position: absolute;
+    top: 40px;
+}
+.svg-3 {
+    position: absolute;
+    left: 290px;
+    top: 150px;
+}
+.title-box-4 {
+    text-align: left;
+    padding: 30px;
+    font-weight: 400;
+    font-family:'Outfit', sans-serif ;
+    color: hsl(234, 12%, 34%);
+    font-size: 24px;
+}
+.description-box-4 {
+    color: hsl(234, 12%, 34%);
+    text-align: left;
+    padding: 30px;
+    line-height: 1.6;
+    font-weight: 200;
+    font-family:'Outfit', sans-serif  ;
+    position: absolute;
+    top: 40px;
+}
+.svg-4 {
+    position: absolute;
+    left: 290px;
+    top: 150px;
+}
